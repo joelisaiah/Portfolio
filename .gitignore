@@ -1,0 +1,18 @@
+# Python
+backend/portfolio_backend/venv/
+backend/portfolio_backend/__pycache__/
+backend/portfolio_backend/*.pyc
+backend/portfolio_backend/portfolio/__pycache__/
+backend/portfolio_backend/portfolio_backend/__pycache__/
+*.pyc
+*.pyo
+
+# Django
+backend/portfolio_backend/.env
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# VS Code
+.vscode/
