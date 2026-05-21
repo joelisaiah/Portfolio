@@ -129,10 +129,13 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://portfolio-ten-gold-71.vercel.app",
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.railway.app',
     'https://*.vercel.app',
+    'https://portfolio-production-19d1.up.railway.app',
+    'https://portfolio-ten-gold-71.vercel.app',
 ]
