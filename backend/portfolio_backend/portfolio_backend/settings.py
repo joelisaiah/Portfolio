@@ -83,10 +83,7 @@ WSGI_APPLICATION = 'portfolio_backend.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.getenv(
-            'DATABASE_URL',
-            'postgresql://postgres:54321@localhost:5432/portfolio_db'
-        ),
+        default=os.getenv('DATABASE_URL'),
         conn_max_age=600
     )
 }
